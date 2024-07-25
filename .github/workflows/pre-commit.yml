@@ -25,7 +25,7 @@ jobs:
       - name: Install pre-commit
         run: pip install pre-commit
       - name: Run pre-commit
-        run: git ls-files dpl | xargs pre-commit run --show-diff-on-failure --color=always --files
+        run: git ls-files ass | xargs pre-commit run --show-diff-on-failure --color=always --files
         env:
           # Consider valid a PR that changes README fragments but doesn't
           # change the README.rst file itself. It's not really a problem
