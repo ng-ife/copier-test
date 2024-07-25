@@ -1,0 +1,94 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* ife_company_fields
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e-20230613\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-19 07:43+0000\n"
+"PO-Revision-Date: 2023-07-19 09:47+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#. module: ife_company_fields
+#: model:ir.model.fields,field_description:ife_company_fields.field_res_company_type_fields__shortcut
+msgid "Abbreviation"
+msgstr "Abkürzung"
+
+#. module: ife_company_fields
+#: model:ir.actions.act_window,name:ife_company_fields.res_company_type_fields_act_window
+#: model:ir.ui.menu,name:ife_company_fields.menu_company_type_fields
+msgid "Company Field Names"
+msgstr "firmenspez. Felder"
+
+#. module: ife_company_fields
+#: model:ir.model,name:ife_company_fields.model_res_company_type_fields
+msgid "Company Fields"
+msgstr ""
+
+#. module: ife_company_fields
+#: model:ir.model.fields,field_description:ife_company_fields.field_res_company_type_fields__company_types
+msgid "Legal Forms"
+msgstr "Rechtsformen"
+
+#. module: ife_company_fields
+#: model_terms:ir.ui.view,arch_db:ife_company_fields.res_company_type_fields_form_view
+msgid "Company Types"
+msgstr "Rechtsformen"
+
+#. module: ife_company_fields
+#: model:ir.model.fields,field_description:ife_company_fields.field_res_company_type_fields__create_uid
+msgid "Created by"
+msgstr "Erstellt von"
+
+#. module: ife_company_fields
+#: model:ir.model.fields,field_description:ife_company_fields.field_res_company_type_fields__create_date
+msgid "Created on"
+msgstr "Erstellt am"
+
+#. module: ife_company_fields
+#: model:ir.model.fields,field_description:ife_company_fields.field_res_company_type_fields__name
+msgid "Description"
+msgstr "Beschreibung"
+
+#. module: ife_company_fields
+#: model:ir.model.fields,field_description:ife_company_fields.field_res_company_type_fields__display_name
+msgid "Display Name"
+msgstr "Anzeigename"
+
+#. module: ife_company_fields
+#: model:ir.model.fields,field_description:ife_company_fields.field_res_company_type_fields__field_name
+msgid "Field Name"
+msgstr "tech. Feldname"
+
+#. module: ife_company_fields
+#: model:ir.model.constraint,message:ife_company_fields.constraint_res_company_type_fields_field_name_uniq
+msgid "Field Name already exists!"
+msgstr "Feldname existiert bereits!"
+
+#. module: ife_company_fields
+#: model:ir.model.fields,field_description:ife_company_fields.field_res_company_type_fields__id
+msgid "ID"
+msgstr ""
+
+#. module: ife_company_fields
+#: model:ir.model.fields,field_description:ife_company_fields.field_res_company_type_fields____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: ife_company_fields
+#: model:ir.model.fields,field_description:ife_company_fields.field_res_company_type_fields__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: ife_company_fields
+#: model:ir.model.fields,field_description:ife_company_fields.field_res_company_type_fields__write_date
+msgid "Last Updated on"
+msgstr ""

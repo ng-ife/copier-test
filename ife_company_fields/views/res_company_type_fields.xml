@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2017-2018 ACSONE SA/NV
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <record model="ir.ui.view" id="res_company_type_fields_form_view">
+        <field name="name">
+            res.company.type.fields.form
+        </field>
+        <field name="model">res.company.type.fields</field>
+        <field name="arch" type="xml">
+            <form string="Company Types">
+                <group col="4">
+                    <field name="name" />
+                    <field name="shortcut" />
+                    <field name="company_types" widget="many2many_tags" />
+                    <field name="field_name" attrs="{'readonly': True}" />
+                </group>
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="res_company_type_fields_search_view">
+        <field name="name">
+            res.company.type.fields.search
+        </field>
+        <field name="model">res.company.type.fields</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name" />
+                <field name="field_name" />
+            </search>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="res_company_type_fields_tree_view">
+        <field name="name">
+            res.company.type.fields.tree (in partner_company_type)
+        </field>
+        <field name="model">res.company.type.fields</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" />
+                <field name="shortcut" />
+                <field name="company_types" widget="many2many_tags" />
+                <field name="field_name" attrs="{'readonly': True}" />
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="res_company_type_fields_act_window">
+        <field name="name">Company Field Names</field>
+        <field name="res_model">res.company.type.fields</field>
+        <field name="view_mode">tree,form</field>
+        <field name="domain">[]</field>
+        <field name="context">{}</field>
+    </record>
+    <menuitem
+        action="res_company_type_fields_act_window"
+        id="menu_company_type_fields"
+        name="Company Field Names"
+        parent="base.menu_users"
+    />
+</odoo>
