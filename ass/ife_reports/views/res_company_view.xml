@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_res_company_inherit" model="ir.ui.view">
+        <field name="name">view.res.company.inherit</field>
+        <field name="model">res.company</field>
+        <field name="inherit_id" ref="base.view_company_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='website']" position="after">
+                <field name="partner_id" invisible="1"/>
+                <field name="partner_company_type"/>
+                <field name="has_registry_court" invisible="1"/>
+                <field name="has_managing_directors" invisible="1"/>
+                <field name="has_board_chair" invisible="1"/>
+                <field name="has_board_of_directors" invisible="1"/>
+                <field name="has_supervisory_board_chair" invisible="1"/>
+                <field name="has_personal_liable_partner" invisible="1"/>
+                <field
+                    name="managing_directors"
+                    widget="many2many_tags"
+                    attrs="{'invisible':[('has_managing_directors', '=', False)]}"
+                />
+                <field
+                    name="board_chair"
+                    widget="many2many_tags"
+                    attrs="{'invisible':[('has_board_chair', '=', False)]}"
+                />
+                <field
+                    name="board_of_directors"
+                    widget="many2many_tags"
+                    attrs="{'invisible':[('has_board_of_directors', '=', False)]}"
+                />
+                <field
+                    name="supervisory_board_chair"
+                    widget="many2many_tags"
+                    attrs="{'invisible':[('has_supervisory_board_chair', '=', False)]}"
+                />
+                <field
+                    name="personal_liable_partner"
+                    attrs="{'invisible':[('has_personal_liable_partner', '=', False)]}"
+                />
+            </xpath>
+            <xpath expr="//field[@name='company_registry']" position="after">
+                <field name="registry_court" attrs="{'invisible':[('has_registry_court', '=', False)]}"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

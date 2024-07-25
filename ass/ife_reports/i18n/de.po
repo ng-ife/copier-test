@@ -1,0 +1,211 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* ife_reports
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e-20230613\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-19 07:53+0000\n"
+"PO-Revision-Date: 2023-07-19 10:06+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#. module: ife_reports
+#: model:ir.model.fields,field_description:ife_reports.field_base_document_layout__abr_board_chair
+#: model:ir.model.fields,field_description:ife_reports.field_res_company__abr_board_chair
+msgid "Abr Board Chair"
+msgstr ""
+
+#. module: ife_reports
+#: model:ir.model.fields,field_description:ife_reports.field_base_document_layout__abr_board_of_directors
+#: model:ir.model.fields,field_description:ife_reports.field_res_company__abr_board_of_directors
+msgid "Abr Board Of Directors"
+msgstr ""
+
+#. module: ife_reports
+#: model:ir.model.fields,field_description:ife_reports.field_base_document_layout__abr_managing_directors
+#: model:ir.model.fields,field_description:ife_reports.field_res_company__abr_managing_directors
+msgid "Abr Managing Directors"
+msgstr ""
+
+#. module: ife_reports
+#: model:ir.model.fields,field_description:ife_reports.field_base_document_layout__abr_personal_liable_partner
+#: model:ir.model.fields,field_description:ife_reports.field_res_company__abr_personal_liable_partner
+msgid "Abr Personal Liable Partner"
+msgstr ""
+
+#. module: ife_reports
+#: model:ir.model.fields,field_description:ife_reports.field_base_document_layout__abr_registry_court
+#: model:ir.model.fields,field_description:ife_reports.field_res_company__abr_registry_court
+msgid "Abr Registry Court"
+msgstr ""
+
+#. module: ife_reports
+#: model:ir.model.fields,field_description:ife_reports.field_base_document_layout__abr_supervisory_board_chair
+#: model:ir.model.fields,field_description:ife_reports.field_res_company__abr_supervisory_board_chair
+msgid "Abr Supervisory Board Chair"
+msgstr ""
+
+#. module: ife_reports
+#: model:res.company.type.fields,shortcut:ife_reports.res_company_type_fields_bod
+msgid "BOD:"
+msgstr "Vorst.:"
+
+#. module: ife_reports
+#: model:ir.model.fields,field_description:ife_reports.field_base_document_layout__board_of_directors
+#: model:ir.model.fields,field_description:ife_reports.field_res_company__board_of_directors
+#: model:res.company.type.fields,name:ife_reports.res_company_type_fields_bod
+msgid "Board of Directors"
+msgstr "Vorstand"
+
+#. module: ife_reports
+#: model:res.company.type.fields,shortcut:ife_reports.res_company_type_fields_cotb
+msgid "COTB:"
+msgstr "Vors.:"
+
+#. module: ife_reports
+#: model:ir.model.fields,field_description:ife_reports.field_base_document_layout__board_chair
+#: model:ir.model.fields,field_description:ife_reports.field_res_company__board_chair
+#: model:res.company.type.fields,name:ife_reports.res_company_type_fields_cotb
+msgid "Chairmen of the Board"
+msgstr "Vorstandsvorsitz"
+
+#. module: ife_reports
+#: model:ir.model.fields,field_description:ife_reports.field_base_document_layout__supervisory_board_chair
+#: model:ir.model.fields,field_description:ife_reports.field_res_company__supervisory_board_chair
+#: model:res.company.type.fields,name:ife_reports.res_company_type_fields_sbc
+msgid "Chairmen of the Supervisory Board"
+msgstr "Aufsichtsrat"
+
+#. module: ife_reports
+#: model:ir.model,name:ife_reports.model_res_company
+msgid "Companies"
+msgstr "Unternehmen"
+
+#. module: ife_reports
+#: model:ir.model,name:ife_reports.model_base_document_layout
+msgid "Company Document Layout"
+msgstr "Dokumentenlayout des Unternehmens"
+
+#. module: ife_reports
+#: model:ir.model.fields,field_description:ife_reports.field_res_company__company_fields
+msgid "Company Fields"
+msgstr ""
+
+#. module: ife_reports
+#: model:ir.model.fields,field_description:ife_reports.field_base_document_layout__has_board_chair
+#: model:ir.model.fields,field_description:ife_reports.field_res_company__has_board_chair
+msgid "Has Board Chair"
+msgstr ""
+
+#. module: ife_reports
+#: model:ir.model.fields,field_description:ife_reports.field_base_document_layout__has_board_of_directors
+#: model:ir.model.fields,field_description:ife_reports.field_res_company__has_board_of_directors
+msgid "Has Board Of Directors"
+msgstr ""
+
+#. module: ife_reports
+#: model:ir.model.fields,field_description:ife_reports.field_base_document_layout__has_company_fields
+#: model:ir.model.fields,field_description:ife_reports.field_res_company__has_company_fields
+msgid "Has Company Fields"
+msgstr ""
+
+#. module: ife_reports
+#: model:ir.model.fields,field_description:ife_reports.field_base_document_layout__has_managing_directors
+#: model:ir.model.fields,field_description:ife_reports.field_res_company__has_managing_directors
+msgid "Has Managing Directors"
+msgstr ""
+
+#. module: ife_reports
+#: model:ir.model.fields,field_description:ife_reports.field_base_document_layout__has_personal_liable_partner
+#: model:ir.model.fields,field_description:ife_reports.field_res_company__has_personal_liable_partner
+msgid "Has Personal Liable Partner"
+msgstr ""
+
+#. module: ife_reports
+#: model:ir.model.fields,field_description:ife_reports.field_base_document_layout__has_registry_court
+#: model:ir.model.fields,field_description:ife_reports.field_res_company__has_registry_court
+msgid "Has Registry Court"
+msgstr ""
+
+#. module: ife_reports
+#: model:ir.model.fields,field_description:ife_reports.field_base_document_layout__has_supervisory_board_chair
+#: model:ir.model.fields,field_description:ife_reports.field_res_company__has_supervisory_board_chair
+msgid "Has Supervisory Board Chair"
+msgstr ""
+
+#. module: ife_reports
+#: model:ir.model.fields,field_description:ife_reports.field_res_company__partner_company_type
+msgid "Legal Form"
+msgstr "Rechtsform"
+
+#. module: ife_reports
+#: model:res.company.type.fields,shortcut:ife_reports.res_company_type_fields_md
+msgid "MD:"
+msgstr "GF:"
+
+#. module: ife_reports
+#: model:ir.model.fields,field_description:ife_reports.field_base_document_layout__managing_directors
+#: model:ir.model.fields,field_description:ife_reports.field_res_company__managing_directors
+#: model:res.company.type.fields,name:ife_reports.res_company_type_fields_md
+msgid "Managing Directors"
+msgstr "Geschäftsführung"
+
+#. module: ife_reports
+#: model:res.company.type.fields,shortcut:ife_reports.res_company_type_fields_plp
+msgid "PLP:"
+msgstr "Kompl.:"
+
+#. module: ife_reports
+#: model:ir.model.fields,field_description:ife_reports.field_base_document_layout__personal_liable_partner
+#: model:ir.model.fields,field_description:ife_reports.field_res_company__personal_liable_partner
+#: model:res.company.type.fields,name:ife_reports.res_company_type_fields_plp
+msgid "Personal Liable Partner"
+msgstr "Komplementär"
+
+#. module: ife_reports
+#: model:res.company.type.fields,shortcut:ife_reports.res_company_type_fields_rc
+msgid "RC:"
+msgstr "Amtsgericht"
+
+#. module: ife_reports
+#: model:ir.model.fields,field_description:ife_reports.field_base_document_layout__registry_court
+#: model:ir.model.fields,field_description:ife_reports.field_res_company__registry_court
+#: model:res.company.type.fields,name:ife_reports.res_company_type_fields_rc
+msgid "Registry Court"
+msgstr "Amtsgericht"
+
+#. module: ife_reports
+#: model:res.company.type.fields,shortcut:ife_reports.res_company_type_fields_sbc
+msgid "SBC:"
+msgstr "AR:"
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_qweb_fields.py:0
+#: code:addons/base/models/ir_qweb_fields.py:0
+#: model:ir.model.fields,field_description:base.field_base_partner_merge_automatic_wizard__group_by_vat
+#: model:res.country,vat_label:base.be model:res.country,vat_label:base.bg
+#: model:res.country,vat_label:base.cy model:res.country,vat_label:base.cz
+#: model:res.country,vat_label:base.de model:res.country,vat_label:base.dk
+#: model:res.country,vat_label:base.ee model:res.country,vat_label:base.es
+#: model:res.country,vat_label:base.fi model:res.country,vat_label:base.fr
+#: model:res.country,vat_label:base.gr model:res.country,vat_label:base.hr
+#: model:res.country,vat_label:base.hu model:res.country,vat_label:base.ie
+#: model:res.country,vat_label:base.it model:res.country,vat_label:base.lt
+#: model:res.country,vat_label:base.lu model:res.country,vat_label:base.lv
+#: model:res.country,vat_label:base.mt model:res.country,vat_label:base.nl
+#: model:res.country,vat_label:base.pl model:res.country,vat_label:base.pt
+#: model:res.country,vat_label:base.ro model:res.country,vat_label:base.se
+#: model:res.country,vat_label:base.si model:res.country,vat_label:base.sk
+#: model:res.country,vat_label:base.uk
+#, python-format
+msgid "VAT"
+msgstr "USt-ID."

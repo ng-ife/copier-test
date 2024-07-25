@@ -1,0 +1,33 @@
+<!-- License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <record model="res.company.type.fields" id="res_company_type_fields_rc">
+        <field name="name">Registry Court</field>
+        <field name="shortcut">RC:</field>
+        <field name="field_name">registry_court</field>
+    </record>
+    <record model="res.company.type.fields" id="res_company_type_fields_md">
+        <field name="name">Managing Directors</field>
+        <field name="shortcut">MD:</field>
+        <field name="field_name">managing_directors</field>
+    </record>
+    <record model="res.company.type.fields" id="res_company_type_fields_cotb">
+        <field name="name">Chairmen of the Board</field>
+        <field name="shortcut">COTB:</field>
+        <field name="field_name">board_chair</field>
+    </record>
+    <record model="res.company.type.fields" id="res_company_type_fields_bod">
+        <field name="name">Board of Directors</field>
+        <field name="shortcut">BOD:</field>
+        <field name="field_name">board_of_directors</field>
+    </record>
+    <record model="res.company.type.fields" id="res_company_type_fields_sbc">
+        <field name="name">Chairmen of the Supervisory Board</field>
+        <field name="shortcut">SBC:</field>
+        <field name="field_name">supervisory_board_chair</field>
+    </record>
+    <record model="res.company.type.fields" id="res_company_type_fields_plp">
+        <field name="name">Personal Liable Partner</field>
+        <field name="shortcut">PLP:</field>
+        <field name="field_name">personal_liable_partner</field>
+    </record>
+</odoo>
